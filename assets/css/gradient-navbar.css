@@ -6,3 +6,40 @@
   background: linear-gradient(120deg, #00e4d0, #5983e8);
 }
 
+@media only screen and (max-width:500px) {
+}
+
+@media only screen and (max-width:500px) .Judul {
+  font-size: 45px;
+}
+
+@media (max-width: 500px) {
+  .Judul2 {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .Judul {
+    font-size: 45px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo {
+    width: 275px;
+  }
+}
+
+@media (max-width: 500px) {
+  .isi {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .judul3 {
+    font-size: 24px !important;
+  }
+}
+
