@@ -1,0 +1,50 @@
+#brand-logo {
+  font-size: 34px;
+}
+
+#app-navbar {
+  background: linear-gradient(120deg, #00e4d0, #5983e8);
+}
+
+@media only screen and (max-width:500px) {
+}
+
+@media only screen and (max-width:500px) .Judul {
+  font-size: 45px;
+}
+
+@media (max-width: 775px) {
+  .Judul2 {
+    font-size: 15px !important;
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 775px) {
+  .Judul {
+    font-size: 45px !important;
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 775px) {
+  .logo {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 775px) {
+  .isi {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .judul3 {
+    font-size: 24px !important;
+  }
+}
+
+.logo {
+}
+
