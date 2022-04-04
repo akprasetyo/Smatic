@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Untitled</title>
+    <title>Smatic 3.0</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
     <link rel="stylesheet" href="assets/css/Segoe%20UI%20Bold.css">
@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="assets/css/Navbar-Fixed-Side.css">
     <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
     <link rel="stylesheet" href="assets/css/Pretty-Registration-Form.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body style="background: rgb(241,247,252);">
@@ -41,25 +40,20 @@
     <section>
         <div class="row register-form">
             <div class="col-md-8 offset-md-2">
-                <form data-aos="fade-down" data-aos-duration="500" data-aos-once="true" class="custom-form" style="background: linear-gradient(90deg, #01e3d0 0%, #5685e7 100%);box-shadow: 0px 0px 8px rgb(0,0,0);">
-                    <h1 style="font-size: 31px;">Register Form</h1>
-                    <div class="row form-group">
-                        <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field">Full Name</label></div>
-                        <div class="col-sm-6 input-column"><input class="form-control" type="text" style="background: rgb(247,249,252);"></div>
-                    </div>
-                    <div class="row form-group">
-                        <div class="col-sm-4 label-column"><label class="col-form-label" for="email-input-field">Email </label></div>
-                        <div class="col-sm-6 input-column"><input class="form-control" type="email" style="background: rgb(247,249,252);"></div>
-                    </div>
-                    <div class="row form-group">
-                        <div class="col-sm-4 label-column"><label class="col-form-label" for="pawssword-input-field">Password </label></div>
-                        <div class="col-sm-6 input-column"><input class="form-control" type="password" style="background: rgb(247,249,252);"></div>
-                    </div>
-                    <div class="row form-group">
-                        <div class="col-sm-4 label-column"><label class="col-form-label" for="repeat-pawssword-input-field">Repeat Password </label></div>
-                        <div class="col-sm-6 input-column"><input class="form-control" type="password" style="background: rgb(247,249,252);"></div>
-                    </div><button class="btn btn-light submit-button" type="button" style="box-shadow: 0px 0px 8px rgb(0,0,0);background: rgb(249,238,122);color: rgb(0,0,0);font-family: 'Segoe UI Regular';">Register</button>
-                </form>
+                <section class="login-clean">
+                    <form data-aos="fade-up" data-aos-duration="500" data-aos-once="true" method="post" style="background: linear-gradient(90deg, #01e3d0 0%, #5685e7 100%);box-shadow: 0px 0px 8px rgb(0,0,0);">
+                        <h2 class="visually-hidden">Login Form</h2>
+                        <div class="illustration"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person-plus" style="color: rgb(249,238,122);">
+                                <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"></path>
+                                <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"></path>
+                            </svg></div>
+                        <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Full Name" style="box-shadow: 0px 0px 3px rgb(0,0,0);"></div>
+                        <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Email" style="box-shadow: 0px 0px 3px rgb(0,0,0);"></div>
+                        <div class="mb-3" style="box-shadow: 0px 0px 3px rgb(0,0,0);"><input class="form-control" type="email" name="email" placeholder="Password" style="box-shadow: 0px 0px 3px rgb(0,0,0);"></div>
+                        <div class="mb-3" style="box-shadow: 0px 0px 3px rgb(0,0,0);"><input class="form-control" type="password" name="password" placeholder="Repeat Password" style="box-shadow: 0px 0px 3px rgb(0,0,0);"></div>
+                        <div class="mb-3"><button class="btn btn-primary d-block w-100" type="submit" style="background: rgb(249,238,122);color: rgb(0,0,0);box-shadow: 0px 0px 8px rgb(0,0,0);">Register</button></div>
+                    </form>
+                </section>
             </div>
         </div>
     </section>
